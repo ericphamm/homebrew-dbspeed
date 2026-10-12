@@ -1,9 +1,9 @@
 cask "dbspeed" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.10.0-rc.1"
-  sha256 arm:   "f1d05ce5f866f9697c32d50c14d2e7648d02a11f83abd9e35ef5cc0e84022223",
-         intel: "a346d8ba64f58ef5e0fe656055d805b3209aa2b955b04f2f13e25e21329def50"
+  version "0.10.0-rc.2"
+  sha256 arm:   "65cd6e0eaf895b1d64e04a2225a5509e24a68e300e665c8de00bcb738a53de36",
+         intel: "ff73e89c632ea73265dedae55040832e446b03502f52b4f854dc87ba39075556"
 
   url "https://github.com/ericphamm/dbflux/releases/download/v#{version}/dbflux-macos-#{arch}.dmg"
   name "DBSpeed"
